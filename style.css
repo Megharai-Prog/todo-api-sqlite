@@ -1,21 +1,27 @@
-:root {
-    --bg-color: #f0f0f0;
-    --box-shadow: rgba(0, 0, 0, 0.1);
-    --display-btn: #4CAF50;
-    --delete-btn: #f44336;
-    --submit-btn: #2196F3;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
+/* import fonts or other imports rules */
+
+/* to-do
+1 ) add hover effect to all buttons
+2 ) add a Google font 
+*/
+
+:root{
+  --bg-color: #f0f0f0;
+  --box-shadow: rgba(0,0,0,0.1);
+  --display-btn:  #4CAF50;
+  --delete-btn: #f44336;
+  --submit-btn: #2196F3;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color)
   }
   
   .container {
@@ -39,11 +45,6 @@
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    opacity: 0.85;
   }
   
   #displayTodos {
@@ -66,5 +67,6 @@
     margin: 5px 0;
     padding: 8px;
     width: 100%;
+    box-sizing: border-box;
   }
   
